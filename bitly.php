@@ -11,7 +11,7 @@ function shortenUrl($url, &$system){
 	 * @return false:Failed
 	 */
 
-	$accessToken = "ACCESS_TOKEN";
+	$accessToken = "f9ce7403030faf409bb6936d51e455fb6bfb15f1";
 	$bitlyDomain = "bit.ly";
 
 	$shorten = json_decode($system->guzzle->post("https://api-ssl.bitly.com/v4/shorten", [
